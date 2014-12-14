@@ -1,0 +1,225 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["poop/layers.json.js"] = [
+	{
+		"id": 326,
+		"name": "BackLayer",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/BackLayer.png",
+			"frame": {
+				"x": 0,
+				"y": 27,
+				"width": 333,
+				"height": 352
+			}
+		},
+		"imageType": "png",
+		"children": [
+			{
+				"id": 330,
+				"name": "TopBar",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 333,
+					"height": 379
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/TopBar.png",
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"width": 333,
+						"height": 27
+					}
+				},
+				"imageType": "png",
+				"children": [
+					
+				],
+				"modification": "2107218170"
+			}
+		],
+		"modification": "1399921653"
+	},
+	{
+		"id": 15,
+		"name": "Main_Group1",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/Main_Group1.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"width": 333,
+				"height": 379
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "875623651"
+	},
+	{
+		"id": 255,
+		"name": "happier",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/happier.png",
+			"frame": {
+				"x": 215,
+				"y": 39,
+				"width": 84,
+				"height": 22
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1150420678"
+	},
+	{
+		"id": 177,
+		"name": "Main_PlayGroup",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/Main_PlayGroup.png",
+			"frame": {
+				"x": 153,
+				"y": 283,
+				"width": 85,
+				"height": 89
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1960781427"
+	},
+	{
+		"id": 76,
+		"name": "Main_Feed",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/Main_Feed.png",
+			"frame": {
+				"x": 4,
+				"y": 288,
+				"width": 66,
+				"height": 85
+			}
+		},
+		"imageType": "png",
+		"children": [
+			
+		],
+		"modification": "1482658557"
+	},
+	{
+		"id": 378,
+		"name": "poop_main_2",
+		"layerFrame": {
+			"x": 0,
+			"y": 0,
+			"width": 333,
+			"height": 379
+		},
+		"maskFrame": null,
+		"image": {
+			"path": "images/poop_main_2.png",
+			"frame": {
+				"x": 0,
+				"y": 0,
+				"width": 333,
+				"height": 379
+			}
+		},
+		"imageType": "png",
+		"children": [
+			{
+				"id": 128,
+				"name": "poop_main",
+				"layerFrame": {
+					"x": 0,
+					"y": 0,
+					"width": 333,
+					"height": 379
+				},
+				"maskFrame": null,
+				"image": {
+					"path": "images/poop_main.png",
+					"frame": {
+						"x": 39,
+						"y": 254,
+						"width": 251,
+						"height": 97
+					}
+				},
+				"imageType": "png",
+				"children": [
+					{
+						"id": 183,
+						"name": "TopBar-2",
+						"layerFrame": {
+							"x": 0,
+							"y": 0,
+							"width": 333,
+							"height": 379
+						},
+						"maskFrame": null,
+						"image": {
+							"path": "images/TopBar-2.png",
+							"frame": {
+								"x": 0,
+								"y": 0,
+								"width": 333,
+								"height": 27
+							}
+						},
+						"imageType": "png",
+						"children": [
+							
+						],
+						"modification": "1740165666"
+					}
+				],
+				"modification": "1681124417"
+			}
+		],
+		"modification": "1658426121"
+	}
+]
