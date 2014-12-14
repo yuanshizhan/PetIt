@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/select_pet">
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="80dp"
+        android:id="@+id/cat_button"
+        android:background="@drawable/cat"
+        android:layout_marginBottom="17dp"
+        android:layout_above="@+id/fluffy_button"
+        android:layout_alignLeft="@+id/select_rectangle1"
+        android:layout_alignStart="@+id/select_rectangle1" />
+
+    <View
+        android:id="@+id/select_rectangle1"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rectangle"
+        android:visibility="visible"
+        android:layout_alignTop="@+id/cat_button"
+        android:layout_alignRight="@+id/cancel_name_pet"
+        android:layout_alignEnd="@+id/cancel_name_pet">
+    </View>
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="80dp"
+        android:id="@+id/dog_button"
+        android:background="@drawable/dog"
+        android:layout_alignTop="@+id/cat_button"
+        android:layout_alignLeft="@+id/done_name_pet"
+        android:layout_alignStart="@+id/done_name_pet" />
+    <View
+        android:id="@+id/select_rectangle2"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rectangle"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/dog_button"
+        android:layout_alignLeft="@+id/dog_button"
+        android:layout_alignStart="@+id/dog_button">
+
+
+    </View>
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="80dp"
+        android:background="@drawable/fluffy"
+        android:id="@+id/fluffy_button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/select_rectangle1"
+        android:layout_alignStart="@+id/select_rectangle1" />
+
+    <View
+        android:id="@+id/select_rectangle3"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rectangle"
+        android:visibility="invisible"
+        android:layout_below="@+id/cat_button"
+        android:layout_alignLeft="@+id/fluffy_button"
+        android:layout_alignStart="@+id/fluffy_button">
+    </View>
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="80dp"
+        android:background="@drawable/black_fluffy"
+        android:id="@+id/black_fluffy_button"
+        android:layout_alignTop="@+id/fluffy_button"
+        android:layout_alignLeft="@+id/select_rectangle2"
+        android:layout_alignStart="@+id/select_rectangle2" />
+    <View
+        android:id="@+id/select_rectangle4"
+        android:layout_width="125dp"
+        android:layout_height="90dp"
+        android:background="@drawable/rectangle"
+        android:visibility="invisible"
+        android:layout_alignTop="@+id/black_fluffy_button"
+        android:layout_alignLeft="@+id/black_fluffy_button"
+        android:layout_alignStart="@+id/black_fluffy_button">
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name your pet!"
+        android:textSize="30dp"
+        android:textColor="#023866"
+        android:id="@+id/please_pet_text"
+        android:layout_above="@+id/name_input"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:singleLine="true"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:hint="Your pet's name here"
+        android:textColorHint="#7491A3"
+        android:textColor="#023866"
+        android:textSize="30dp"
+        android:id="@+id/name_input"
+        android:layout_above="@+id/cancel_name_pet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp">
+    </EditText>
+
+    <Button
+        android:text="Cancel"
+        android:textSize="25dp"
+        android:background="#023866"
+        android:textColor="#DCEEEE"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="41dp"
+        android:id="@+id/cancel_name_pet"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/name_input"
+        android:layout_alignStart="@+id/name_input" />
+
+    <Button
+        android:text="Done"
+        android:textSize="25dp"
+        android:background="#023866"
+        android:textColor="#DCEEEE"
+        android:id="@+id/done_name_pet"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cancel_name_pet"
+        android:layout_alignRight="@+id/name_input"
+        android:layout_alignEnd="@+id/name_input" />
+
+</RelativeLayout>
